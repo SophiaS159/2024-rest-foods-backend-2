@@ -1,5 +1,6 @@
 package ch.noseryoung.restfoodsbackend22024;
 
+import ch.noseryoung.restfoodsbackend22024.model.Food;
 import ch.noseryoung.restfoodsbackend22024.repository.FoodRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

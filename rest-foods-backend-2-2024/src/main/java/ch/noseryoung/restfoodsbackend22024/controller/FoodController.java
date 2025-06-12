@@ -1,6 +1,6 @@
 package ch.noseryoung.restfoodsbackend22024.controller;
 
-import ch.noseryoung.restfoodsbackend22024.Food;
+import ch.noseryoung.restfoodsbackend22024.model.Food;
 import ch.noseryoung.restfoodsbackend22024.repository.FoodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
