@@ -12,6 +12,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="corretto-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

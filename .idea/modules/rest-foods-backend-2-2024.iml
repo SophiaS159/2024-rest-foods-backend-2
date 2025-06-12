@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024">
       <excludeFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
