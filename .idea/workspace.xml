@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/ReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/FoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/FoodRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/FoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,15 +13,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SophiaS159/2024-rest-foods-backend-2.git",
-    "accountId": "fbfe8d23-859b-4a31-89f9-d8e847b84449"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JesusChristTheLast"
   }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SophiaS159/2024-rest-foods-backend-2.git&quot;,
+    &quot;accountId&quot;: &quot;fbfe8d23-859b-4a31-89f9-d8e847b84449&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2yP3sbMq4ntlFjwtV3bs2OY734t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Rebasing jon"
+    "git-widget-placeholder": "#2 on Rebasing jon"
   }
 }]]></component>
   <component name="RunManager">
@@ -45,6 +49,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <servers />
   </component>
