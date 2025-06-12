@@ -39,20 +39,7 @@ public class FoodController {
         return new ResponseEntity<>(foods, HttpStatus.OK);
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<Food> updateFood(@PathVariable Long id, @RequestBody Food foodDetails) {
-        Optional<Food> food = foodRepository.findById(id);
-        if (food.isPresent()) {
-            Food existingFood = food.get();
-            existingFood.setName(foodDetails.getName());
-            existingFood.setDescription(foodDetails.getDescription());
-            existingFood.setPrice(foodDetails.getPrice());
-            existingFood.setCategory(foodDetails.getCategory());
-            foodRepository.save(existingFood);
-            return new ResponseEntity<>(existingFood, HttpStatus.OK);
-        }
-        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-    }
+
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteFood(@PathVariable Long id) {
