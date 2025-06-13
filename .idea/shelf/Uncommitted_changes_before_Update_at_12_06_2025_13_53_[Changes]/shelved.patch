@@ -1,0 +1,115 @@
+Index: rest-foods-backend-2-2024/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=rest-foods-backend-2-2024\r\nspring.datasource.url=jdbc:postgresql://localhost:5432/fooddb\r\nspring.datasource.username=postgres\r\nspring.datasource.password=deinPasswort\r\nspring.datasource.driver-class-name=org.postgresql.Driver\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect\r\nspring.jpa.show-sql=true\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/rest-foods-backend-2-2024/src/main/resources/application.properties b/rest-foods-backend-2-2024/src/main/resources/application.properties
+--- a/rest-foods-backend-2-2024/src/main/resources/application.properties	(revision 5e08aa69766d5b2e2b1ffb67528f521c24da0324)
++++ b/rest-foods-backend-2-2024/src/main/resources/application.properties	(date 1749727870417)
+@@ -1,9 +1,8 @@
+-spring.application.name=rest-foods-backend-2-2024
+-spring.datasource.url=jdbc:postgresql://localhost:5432/fooddb
++spring.sql.init.mode=always
++spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+ spring.datasource.username=postgres
+-spring.datasource.password=deinPasswort
+-spring.datasource.driver-class-name=org.postgresql.Driver
+-
++spring.datasource.password=postgres
+ spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+ spring.jpa.show-sql=true
++spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
++
+Index: .idea/modules/rest-foods-backend-2-2024.main.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module external.linked.project.id=\"rest-foods-backend-2-2024:main\" external.linked.project.path=\"$MODULE_DIR$/../../rest-foods-backend-2-2024\" external.root.project.path=\"$MODULE_DIR$/../../rest-foods-backend-2-2024\" external.system.id=\"GRADLE\" external.system.module.group=\"ch.noseryoung\" external.system.module.type=\"sourceSet\" external.system.module.version=\"0.0.1-SNAPSHOT\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet external-system-id=\"GRADLE\" type=\"web\" name=\"Web\">\r\n      <configuration>\r\n        <webroots />\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_21\">\r\n    <output url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build/classes/java/main\" />\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build/generated/sources/annotationProcessor/java/main\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build/generated/sources/annotationProcessor/java/main\" isTestSource=\"false\" generated=\"true\" />\r\n    </content>\r\n    <content url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/resources\" type=\"java-resource\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"corretto-21\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"Gradle: org.projectlombok:lombok:1.18.38\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-data-jpa:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-validation:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-web:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.hibernate.orm:hibernate-core:6.6.15.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.data:spring-data-jpa:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-aspects:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.apache.tomcat.embed:tomcat-embed-el:10.1.41\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.hibernate.validator:hibernate-validator:8.0.2.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-json:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-tomcat:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-webmvc:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-web:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-jdbc:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.zaxxer:HikariCP:6.3.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-autoconfigure:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.boot:spring-boot-starter-logging:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-core:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.yaml:snakeyaml:2.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-orm:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework.data:spring-data-commons:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-context:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-aop:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-tx:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-beans:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.antlr:antlr4-runtime:4.13.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.slf4j:slf4j-api:2.0.17\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.aspectj:aspectjweaver:1.9.24\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: jakarta.validation:jakarta.validation-api:3.0.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jboss.logging:jboss-logging:3.6.1.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml:classmate:1.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.core:jackson-databind:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.41\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-expression:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: io.micrometer:micrometer-observation:1.15.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: ch.qos.logback:logback-classic:1.5.18\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.slf4j:jul-to-slf4j:2.0.17\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.springframework:spring-jcl:6.2.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.core:jackson-annotations:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.fasterxml.jackson.core:jackson-core:2.19.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: io.micrometer:micrometer-commons:1.15.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: ch.qos.logback:logback-core:1.5.18\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.apache.logging.log4j:log4j-api:2.24.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.springframework.boot:spring-boot-devtools:3.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.postgresql:postgresql:42.7.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.checkerframework:checker-qual:3.48.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.hibernate.common:hibernate-commons-annotations:7.0.3.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: io.smallrye:jandex:3.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: net.bytebuddy:byte-buddy:1.17.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.glassfish.jaxb:jaxb-runtime:4.0.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: jakarta.xml.bind:jakarta.xml.bind-api:4.0.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: jakarta.inject:jakarta.inject-api:2.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.glassfish.jaxb:jaxb-core:4.0.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: jakarta.activation:jakarta.activation-api:2.1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.eclipse.angus:angus-activation:2.0.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: org.glassfish.jaxb:txw2:4.0.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Gradle: com.sun.istack:istack-commons-runtime:4.1.2\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/rest-foods-backend-2-2024.main.iml b/.idea/modules/rest-foods-backend-2-2024.main.iml
+--- a/.idea/modules/rest-foods-backend-2-2024.main.iml	(revision 5e08aa69766d5b2e2b1ffb67528f521c24da0324)
++++ b/.idea/modules/rest-foods-backend-2-2024.main.iml	(date 1749729223906)
+@@ -19,7 +19,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/resources" type="java-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/main/resources" type="java-resource" />
+     </content>
+-    <orderEntry type="jdk" jdkName="corretto-21" jdkType="JavaSDK" />
++    <orderEntry type="jdk" jdkName="openjdk-24" jdkType="JavaSDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.38" level="project" />
+     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:3.5.0" level="project" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ba173ea7-69f1-4470-b7dc-907724ce3b26\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/Food.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand />\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"dev\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;JesusChristTheLast&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/SophiaS159/2024-rest-foods-backend-2.git&quot;,\r\n    &quot;accountId&quot;: &quot;fbfe8d23-859b-4a31-89f9-d8e847b84449&quot;\r\n  }\r\n}</component>\r\n  <component name=\"JpbToolWindowState\">\r\n    <option name=\"isToolWindowVisible\" value=\"false\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2yP3sbMq4ntlFjwtV3bs2OY734t\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"#2 on jon\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5e08aa69766d5b2e2b1ffb67528f521c24da0324)
++++ b/.idea/workspace.xml	(date 1749729223938)
+@@ -4,12 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/Food.java" beforeDir="false" />
++    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="Created FoodController, added Database for testing">
++      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/executionHistory/executionHistory.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/resources/main/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -21,7 +20,12 @@
+       <state>
+         <projects_view>
+           <tree_state>
+-            <expand />
++            <expand>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="rest-foods-backend-2-2024" type="f1a62948:ProjectNode" />
++              </path>
++            </expand>
+             <select />
+           </tree_state>
+         </projects_view>
+@@ -64,7 +68,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "git-widget-placeholder": "#2 on jon",
++    "git-widget-placeholder": "dev",
+     "node.js.selected.package.tslint": "(autodetect)"
+   }
+ }]]></component>
+Index: rest-foods-backend-2-2024/build/resources/main/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=rest-foods-backend-2-2024\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/rest-foods-backend-2-2024/build/resources/main/application.properties b/rest-foods-backend-2-2024/build/resources/main/application.properties
+--- a/rest-foods-backend-2-2024/build/resources/main/application.properties	(revision 5e08aa69766d5b2e2b1ffb67528f521c24da0324)
++++ b/rest-foods-backend-2-2024/build/resources/main/application.properties	(date 1749727870489)
+@@ -1,1 +1,8 @@
+-spring.application.name=rest-foods-backend-2-2024
++spring.sql.init.mode=always
++spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
++spring.datasource.username=postgres
++spring.datasource.password=postgres
++spring.jpa.hibernate.ddl-auto=update
++spring.jpa.show-sql=true
++spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
++
