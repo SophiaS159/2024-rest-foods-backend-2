@@ -4,5 +4,10 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-foods-backend-2-2024" target="21" />
+      <module name="rest-foods-backend-2-2024.main" target="21" />
+      <module name="rest-foods-backend-2-2024.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
