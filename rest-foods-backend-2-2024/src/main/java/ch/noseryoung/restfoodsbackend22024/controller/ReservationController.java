@@ -44,10 +44,10 @@ public class ReservationController {
         Optional<Reservation> reservation = reservationRepository.findById(id);
         if (reservation.isPresent()) {
             Reservation existingReservation = reservation.get();
-            existingReservation.setUser_id(reservationDetails.getUser_id());
+            existingReservation.setUserId(reservationDetails.getUserId());
             existingReservation.setReservation_date(reservationDetails.getReservation_date());
             existingReservation.setAmountPeople(reservationDetails.getAmountPeople());
-            existingReservation.setUser_name(reservationDetails.getUser_name());
+            existingReservation.setUsername(reservationDetails.getUsername());
             reservationRepository.save(existingReservation);
             return new ResponseEntity<>(existingReservation, HttpStatus.OK);
         }

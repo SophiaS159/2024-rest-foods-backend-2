@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-@RequiredArgsConstructor
 @NoArgsConstructor
 @AllArgsConstructor
 public class Reservation {
@@ -20,13 +19,13 @@ public class Reservation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long reservation_id;
 
-    private Long user_id;
+    private Long userId;
 
     private LocalDateTime reservation_date;
 
     private int amountPeople;
 
-    private String user_name;
+    private String username;
 
     private enum ReservationStatus {
         PENDING,
