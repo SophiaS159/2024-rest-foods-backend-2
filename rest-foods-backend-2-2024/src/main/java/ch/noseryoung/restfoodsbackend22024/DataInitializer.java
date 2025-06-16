@@ -19,21 +19,18 @@ public class DataInitializer {
     @Bean
     CommandLineRunner initDatabase(FoodRepository foodRepository, UserRepository userRepository, ReservationRepository reservationRepository) {
         return args -> {
-            // Beispiel-User
-            User user1 = new User(null, "hAEkKed", "haekked@example.com", "securepass", "CUSTOMER");
+            User user1 = new User(null, "Ramanti", "ramanti@gmail.com", "securepass", "CUSTOMER");
             User user2 = new User(null, "max", "max@example.com", "max1234", "ADMIN");
 
             user1 = userRepository.save(user1);
             user2 = userRepository.save(user2);
 
-            // Beispiel-Foods
             Food pizza = new Food(null, "Pizza Margherita", "Leckere Pizza mit Tomaten und Käse", 12.50, "Italienisch");
             Food burger = new Food(null, "Classic Burger", "Rindfleisch-Burger mit Pommes", 14.90, "Amerikanisch");
             Food ramen = new Food(null, "Tonkotsu Ramen", "Japanische Nudelsuppe mit Schweinefleisch", 16.00, "Japanisch");
 
             foodRepository.saveAll(List.of(pizza, burger, ramen));
 
-            // Beispiel-Reservationen für User1
             Reservation res1 = new Reservation();
             res1.setUserId(user1.getId());
             res1.setUsername(user1.getUsername());
@@ -46,7 +43,6 @@ public class DataInitializer {
             res2.setReservation_date(LocalDateTime.now().plusDays(3));
             res2.setAmountPeople(4);
 
-            // Beispiel-Reservation für User2
             Reservation res3 = new Reservation();
             res3.setUserId(user2.getId());
             res3.setUsername(user2.getUsername());

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -19,8 +20,11 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user) {
+        if (userRepository.existsByUsername(user.getUsername())) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).build();
+        }
         User savedUser = userRepository.save(user);
-        return new ResponseEntity<>(savedUser, HttpStatus.CREATED);
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedUser);
     }
 
     @GetMapping("/{id}")

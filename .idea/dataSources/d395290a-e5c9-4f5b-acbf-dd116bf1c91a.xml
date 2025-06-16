@@ -11,9 +11,8 @@
 4||10|c|G
 4||10|C|G
 4||10|T|G</Grants>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
       <ServerVersion>17.4</ServerVersion>
-      <StartupTime>1749796590</StartupTime>
+      <StartupTime>1750055463</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -1408,57 +1407,56 @@ true posixrules
 13219||10|C|G
 13219||-9223372036854775808|U|G
 13219||10|U|G</Grants>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <role id="3" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
-    </role>
-    <role id="4" parent="1" name="pg_create_subscription">
-      <ObjectId>6304</ObjectId>
-    </role>
-    <role id="5" parent="1" name="pg_database_owner">
+    <role id="3" parent="1" name="pg_database_owner">
       <ObjectId>6171</ObjectId>
     </role>
-    <role id="6" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
+    <role id="4" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
     </role>
-    <role id="7" parent="1" name="pg_maintain">
-      <ObjectId>6337</ObjectId>
+    <role id="5" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
     </role>
-    <role id="8" parent="1" name="pg_monitor">
+    <role id="6" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <RoleGrants>3374
 3375
 3377</RoleGrants>
     </role>
-    <role id="9" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
-    </role>
-    <role id="10" parent="1" name="pg_read_all_settings">
+    <role id="7" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
     </role>
-    <role id="11" parent="1" name="pg_read_all_stats">
+    <role id="8" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
     </role>
-    <role id="12" parent="1" name="pg_read_server_files">
+    <role id="9" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_read_server_files">
       <ObjectId>4569</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
     </role>
     <role id="13" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
     </role>
-    <role id="14" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
+    <role id="14" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
     </role>
-    <role id="15" parent="1" name="pg_use_reserved_connections">
+    <role id="15" parent="1" name="pg_maintain">
+      <ObjectId>6337</ObjectId>
+    </role>
+    <role id="16" parent="1" name="pg_use_reserved_connections">
       <ObjectId>4550</ObjectId>
     </role>
-    <role id="16" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="17" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
+    <role id="17" parent="1" name="pg_create_subscription">
+      <ObjectId>6304</ObjectId>
     </role>
     <role id="18" parent="1" name="postgres">
       <BypassRls>1</BypassRls>
@@ -4830,7 +4828,6 @@ true posixrules
     <schema id="264" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
       <LastIntrospectionLocalTimestamp>2025-06-13.07:28:13</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
@@ -4873,8 +4870,8 @@ true posixrules
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="270" parent="264" name="users">
-      <ObjectId>24585</ObjectId>
-      <StateNumber>774</StateNumber>
+      <ObjectId>24607</ObjectId>
+      <StateNumber>807</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4891,7 +4888,6 @@ true posixrules
       <Position>2</Position>
       <StateNumber>765</StateNumber>
       <StoredType>bigint|0s</StoredType>
-      <SequenceId>16428</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="273" parent="268" name="category">
@@ -4934,7 +4930,6 @@ true posixrules
       <Position>1</Position>
       <StateNumber>772</StateNumber>
       <StoredType>bigint|0s</StoredType>
-      <SequenceId>24576</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="279" parent="269" name="amount_people">
@@ -4988,50 +4983,50 @@ true posixrules
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <StoredType>bigint|0s</StoredType>
-      <SequenceId>24584</SequenceId>
+      <SequenceId>24606</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="287" parent="270" name="email">
       <Position>2</Position>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="288" parent="270" name="password">
       <Position>3</Position>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="289" parent="270" name="role">
       <Position>4</Position>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="290" parent="270" name="username">
       <Position>5</Position>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <index id="291" parent="270" name="users_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>24590</ObjectId>
+      <ObjectId>24612</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>774</StateNumber>
+      <StateNumber>807</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="292" parent="270" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>24591</ObjectId>
+      <ObjectId>24613</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>774</StateNumber>
-      <UnderlyingIndexId>24590</UnderlyingIndexId>
+      <StateNumber>807</StateNumber>
+      <UnderlyingIndexId>24612</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
