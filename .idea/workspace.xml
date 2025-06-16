@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="Solved all Errors and renamed wrong attributes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/FoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-foods-backend-2-2024" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JesusChristTheLast&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SophiaS159/2024-rest-foods-backend-2.git&quot;,
+    &quot;accountId&quot;: &quot;7a66bc96-6c1b-4275-954a-38f8149220e5&quot;
+  }
+}</component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2yP3sbMq4ntlFjwtV3bs2OY734t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.RestFoodsBackend22024Application.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="" />
+      <created>1749795785841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749795785841</updated>
+      <workItem from="1749795788928" duration="9947000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created ReservationController.java">
+      <option name="closed" value="true" />
+      <created>1749796320402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749796320402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created UserController.java">
+      <option name="closed" value="true" />
+      <created>1749796338576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749796338576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Solved all Errors and renamed wrong attributes">
+      <option name="closed" value="true" />
+      <created>1749801183825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749801183825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created ReservationController.java" />
+    <MESSAGE value="Created UserController.java" />
+    <MESSAGE value="Solved all Errors and renamed wrong attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved all Errors and renamed wrong attributes" />
+  </component>
+</project>
