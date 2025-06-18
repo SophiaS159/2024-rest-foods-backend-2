@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="rest-foods-backend-2-2024:test" external.linked.project.path="$MODULE_DIR$/../../rest-foods-backend-2-2024" external.root.project.path="$MODULE_DIR$/../../rest-foods-backend-2-2024" external.system.id="GRADLE" external.system.module.group="ch.noseryoung" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet external-system-id="GRADLE" type="web" name="Web">
-      <configuration>
-        <webroots />
-      </configuration>
-    </facet>
-  </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
+  <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../rest-foods-backend-2-2024/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="corretto-21" jdkType="JavaSDK" />
