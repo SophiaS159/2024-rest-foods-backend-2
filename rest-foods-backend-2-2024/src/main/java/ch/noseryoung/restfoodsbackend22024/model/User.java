@@ -1,5 +1,6 @@
 package ch.noseryoung.restfoodsbackend22024.model;
 
+import ch.noseryoung.restfoodsbackend22024.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import lombok.*;
@@ -36,10 +37,9 @@ public class User {
     //sollte man generell nicht als Klartext speichern
     private String password;
 
-    @Column(length = 20, nullable = false)
+    @Enumerated(EnumType.STRING)
     @NotBlank
-    @Size(max = 20)
-    private String role;
+    private Role role;
 
     // equals & hashCode auf Basis von ID
     @Override
