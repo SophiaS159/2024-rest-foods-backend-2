@@ -1,11 +1,18 @@
 package ch.noseryoung.restfoodsbackend22024.controller;
 
-import ch.noseryoung.restfoodsbackend22024.DTO.LoginRequest;
+import ch.noseryoung.restfoodsbackend22024.payload.JwtResponse;
+import ch.noseryoung.restfoodsbackend22024.payload.LoginRequest;
 import ch.noseryoung.restfoodsbackend22024.model.User;
 import ch.noseryoung.restfoodsbackend22024.repository.UserRepository;
+import ch.noseryoung.restfoodsbackend22024.security.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,29 +25,22 @@ public class UserController {
 
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private AuthenticationManager authenticationManager;
+    @Autowired
+    private JwtUtils jwtUtils;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user) {
         if (userRepository.existsByLogin(user.getLogin())) {
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
+        user.setPassword(passwordEncoder.encode(user.getPassword()));  // Passwort hashen
         User savedUser = userRepository.save(user);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedUser);
-    }
-
-    @PostMapping("/login")
-    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
-        String login = loginRequest.getLogin();
-        String password = loginRequest.getPassword();
-
-        Optional<User> userOpt = userRepository.findByLoginAndPassword(login, password);
-
-        if (userOpt.isPresent()) {
-            User user = userOpt.get();
-            return ResponseEntity.ok(user);
-        } else {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid login or password");
-        }
     }
 
     @GetMapping("/{id}")
@@ -68,7 +68,12 @@ public class UserController {
             existingUser.setPassword(userDetails.getPassword());
             existingUser.setRole(userDetails.getRole());
             userRepository.save(existingUser);
+            if (userDetails.getPassword() != null) {
+                existingUser.setPassword(passwordEncoder.encode(userDetails.getPassword()));
+            }
+
             return new ResponseEntity<>(existingUser, HttpStatus.OK);
+
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }

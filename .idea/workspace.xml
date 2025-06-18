@@ -4,221 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="">
+    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="Repaired my Repository and connected Loginpage with backend">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/payload/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d395290a-e5c9-4f5b-acbf-dd116bf1c91a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_6_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_smallrye_jandex_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_inject_jakarta_inject_api_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_17_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_17_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_24_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_24_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_27_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_awaitility_awaitility_4_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_48_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_7_0_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_orm_hibernate_core_6_6_15_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_6_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_5_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_42_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_06_2025_08_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_06_2025_08_10_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_06_2025_08_10__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/8.14.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/2024-rest-foods-backend-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/modules/rest-foods-backend-2-2024.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/modules/rest-foods-backend-2-2024.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/modules/rest-foods-backend-2-2024.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/FoodRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/FoodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/ReservationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/test/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024ApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/libs/rest-foods-backend-2-2024-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/libs/rest-foods-backend-2-2024-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/classes/ch.noseryoung.restfoodsbackend22024.RestFoodsBackend22024ApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/reports/tests/test/packages/ch.noseryoung.restfoodsbackend22024.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/test-results/test/TEST-ch.noseryoung.restfoodsbackend22024.RestFoodsBackend22024ApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/DataInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/FoodController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Food.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Reservation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/FoodRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/FoodService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/ReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/test/java/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DTO/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DataInitializer.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserService.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/DTO/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/payload/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,12 +65,30 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rest-foods-backend-2-2024" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-foods-backend-2-2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-foods-backend-2-2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/dev" />
@@ -301,6 +138,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "Spring Boot.RestFoodsBackend22024Application.executor": "Run",
     "git-widget-placeholder": "mor",
     "ignore.virus.scanning.warn.message": "true",
@@ -317,6 +155,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.rest-foods-backend-2-2024 [bootRun]">
@@ -402,11 +245,25 @@
       <workItem from="1750238469487" duration="4000" />
       <workItem from="1750238502738" duration="4000" />
       <workItem from="1750239039858" duration="160000" />
-      <workItem from="1750239412339" duration="38000" />
+      <workItem from="1750239412339" duration="6161000" />
     </task>
+    <task id="LOCAL-00001" summary="Repaired my Repository and connected Loginpage with backend">
+      <option name="closed" value="true" />
+      <created>1750239577825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750239577825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Repaired my Repository" />
+    <MESSAGE value="Repaired my Repository and connected Loginpage with backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repaired my Repository and connected Loginpage with backend" />
   </component>
 </project>
