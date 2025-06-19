@@ -5,6 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Gradle\gradle-8.1.1-bin\gradle-8.1.1" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
@@ -14,6 +15,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/rest-foods-backend-2-2024" />
+        <option name="gradleHome" value="C:\Gradle\gradle-8.1.1-bin\gradle-8.1.1" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
