@@ -19,8 +19,8 @@ public class DataInitializer {
     @Bean
     CommandLineRunner initDatabase(FoodRepository foodRepository, UserRepository userRepository, ReservationRepository reservationRepository) {
         return args -> {
-            User user1 = new User(null, "ramanti@gmail.com", "securepass", "CUSTOMER");
-            User user2 = new User(null, "max", "max1234", "ADMIN");
+            User user1 = new User(null, "ramanti@gmail.com", "securepass", User.Role.CUSTOMER);
+            User user2 = new User(null, "max", "max1234", User.Role.ADMIN);
 
             user1 = userRepository.save(user1);
             user2 = userRepository.save(user2);

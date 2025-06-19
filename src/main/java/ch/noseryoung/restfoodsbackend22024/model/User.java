@@ -2,9 +2,6 @@ package ch.noseryoung.restfoodsbackend22024.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.proxy.HibernateProxy;
-
-import java.util.Objects;
 
 @Entity
 @Table(name = "users")
@@ -19,10 +16,17 @@ public class User {
     private Long id;
 
     @Column(nullable = false, unique = true)
-    private String login;  // entweder Username oder Email
+    private String login;
 
     @Column(nullable = false)
     private String password;
 
-    private String role;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role;
+
+    public enum Role {
+        ADMIN,
+        CUSTOMER
+    }
 }

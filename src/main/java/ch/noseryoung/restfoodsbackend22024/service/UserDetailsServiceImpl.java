@@ -2,8 +2,11 @@ package ch.noseryoung.restfoodsbackend22024.service;
 
 import ch.noseryoung.restfoodsbackend22024.model.User;
 import ch.noseryoung.restfoodsbackend22024.repository.UserRepository;
+import ch.noseryoung.restfoodsbackend22024.security.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.*;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -15,12 +18,14 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
         User user = userRepository.findByLogin(login)
-                .orElseThrow(() -> new UsernameNotFoundException("User not found with email/username: " + login));
+                .orElseThrow(() -> new UsernameNotFoundException("User not found with login: " + login));
 
-        return org.springframework.security.core.userdetails.User
-                .withUsername(user.getLogin())
-                .password(user.getPassword())
-                .authorities("USER") // Rollen/Authorities
-                .build();
+        return new UserDetailsImpl(
+                user.getId(),
+                user.getLogin(),
+                user.getPassword(),
+                user.getRole()
+        );
+
     }
 }
