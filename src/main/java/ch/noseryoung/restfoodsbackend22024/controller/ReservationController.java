@@ -1,10 +1,15 @@
 package ch.noseryoung.restfoodsbackend22024.controller;
 
+import ch.noseryoung.restfoodsbackend22024.DTO.ReservationDTO;
 import ch.noseryoung.restfoodsbackend22024.model.Reservation;
+import ch.noseryoung.restfoodsbackend22024.model.User;
 import ch.noseryoung.restfoodsbackend22024.repository.ReservationRepository;
+import ch.noseryoung.restfoodsbackend22024.repository.UserRepository;
+import ch.noseryoung.restfoodsbackend22024.service.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,8 +23,29 @@ public class ReservationController {
     @Autowired
     private ReservationRepository reservationRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private ReservationService reservationService;
+
     @PostMapping
-    public ResponseEntity<Reservation> createReservation(@RequestBody Reservation reservation) {
+    public ResponseEntity<Reservation> createReservation(@RequestBody Reservation reservation, Authentication authentication) {
+        if (authentication == null || !authentication.isAuthenticated()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        }
+        String login = authentication.getName();
+        Optional<User> userOpt = userRepository.findByLogin(login);
+        if (userOpt.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+
+        reservation.setUser(userOpt.get());
+
+        if (reservation.getReservationStatus() == null) {
+            reservation.setReservationStatus(Reservation.ReservationStatus.PENDING);
+        }
+
         Reservation savedReservation = reservationRepository.save(reservation);
         return new ResponseEntity<>(savedReservation, HttpStatus.CREATED);
     }
@@ -40,15 +66,40 @@ public class ReservationController {
         return new ResponseEntity<>(reservations, HttpStatus.OK);
     }
 
+    @GetMapping("/my")
+    public ResponseEntity<List<ReservationDTO>> getMyReservations(Authentication authentication, Reservation reservation) {
+        if (authentication == null || !authentication.isAuthenticated()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        }
+
+        String login = authentication.getName();
+        Optional<User> userOpt = userRepository.findByLogin(login);
+
+        if (userOpt.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+
+        List<Reservation> reservations = reservationService.getReservationsByUser(userOpt.get());
+        if (reservations.isEmpty()) {
+            return ResponseEntity.noContent().build();
+        }
+        List<ReservationDTO> dtoList = reservations.stream()
+                .map(ReservationDTO::new)
+                .toList();
+
+        return ResponseEntity.ok(dtoList);
+    }
+
+
     @PutMapping("/{id}")
     public ResponseEntity<Reservation> updateReservation(@PathVariable Long id, @RequestBody Reservation reservationDetails) {
-        Optional<Reservation> reservation = reservationRepository.findById(id);
-        if (reservation.isPresent()) {
-            Reservation existingReservation = reservation.get();
-            existingReservation.setUserId(reservationDetails.getUserId());
-            existingReservation.setReservation_date(reservationDetails.getReservation_date());
+        Optional<Reservation> reservationOpt = reservationRepository.findById(id);
+        if (reservationOpt.isPresent()) {
+            Reservation existingReservation = reservationOpt.get();
+            // Nur Felder updaten, nicht den User (für mehr Sicherheit)
+            existingReservation.setReservationDate(reservationDetails.getReservationDate());
             existingReservation.setAmountPeople(reservationDetails.getAmountPeople());
-            existingReservation.setUsername(reservationDetails.getUsername());
+            existingReservation.setReservationStatus(reservationDetails.getReservationStatus());
             reservationRepository.save(existingReservation);
             return new ResponseEntity<>(existingReservation, HttpStatus.OK);
         }

@@ -1,6 +1,7 @@
 package ch.noseryoung.restfoodsbackend22024.service;
 
 import ch.noseryoung.restfoodsbackend22024.model.Reservation;
+import ch.noseryoung.restfoodsbackend22024.model.User;
 import ch.noseryoung.restfoodsbackend22024.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,7 +35,7 @@ public class ReservationService {
         reservationRepository.deleteById(id);
     }
 
-    public List<Reservation> getReservationsByUserId(Long userId) {
-        return reservationRepository.findByUserId(userId);
+    public List<Reservation> getReservationsByUser(User user) {
+        return reservationRepository.findByUser(user);
     }
 }

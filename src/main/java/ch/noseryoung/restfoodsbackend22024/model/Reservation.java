@@ -1,37 +1,44 @@
 package ch.noseryoung.restfoodsbackend22024.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 @Entity
 @Getter
 @Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "reservations")
 public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long reservation_id;
+    private Long reservationId;
 
-    private Long userId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    @JsonBackReference
+    private User user;
 
-    private LocalDateTime reservation_date;
-
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonProperty("reservationDate")
+    private LocalDate reservationDate;
+    private LocalTime reservationTime;
     private int amountPeople;
 
-    private String username;
+    @Enumerated(EnumType.STRING)
+    private ReservationStatus reservationStatus;
 
-    private enum ReservationStatus {
+    public enum ReservationStatus {
         PENDING,
         CONFIRMED,
         CANCELLED
     }
-
 
 }
