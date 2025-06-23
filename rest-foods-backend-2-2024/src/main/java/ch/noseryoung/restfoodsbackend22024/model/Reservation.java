@@ -20,7 +20,7 @@ public class Reservation {
 
     @Column(nullable = false)
     @NotNull
-    private Long user_id;
+    private Long userId;
 
     @Column(nullable = false)
     @FutureOrPresent(message = "Das Reservierungsdatum muss in der Gegenwart oder Zukunft liegen.")

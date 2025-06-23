@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Samgyeopsal (삼겹살)",
+    "description": "Grilled pork belly. Pork belly slices, Lettuce leaves, Ssamjang (doenjang, gochujang, garlic, sesame oil), Raw garlic cloves, Green chili slices, Steamed rice, Kimchi",
+    "price": 18.00,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/1.Samgyeopsal.png"
+  },
+  {
+    "name": "Bulgogi (불고기)",
+    "description": "Marinated thin beef slices. Thinly sliced beef, Soy sauce, Sugar, Garlic, Sesame oil, Onion, Pear, Green onions",
+    "price": 18.50,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/2.Bulgogi.png"
+  },
+  {
+    "name": "Dak Galbi (닭갈비)",
+    "description": "Spicy stir-fried chicken. Chicken thigh or breast, Gochujang, Garlic, Soy sauce, Sugar, Cabbage, Rice cakes (tteok), Carrots, Green onions",
+    "price": 17.00,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/3.Dak Galbi.png"
+  },
+  {
+    "name": "Galbi (갈비)",
+    "description": "Marinated beef short ribs. Beef short ribs, Soy sauce, Sugar, Garlic, Sesame oil, Asian pear, Green onions, Sesame seeds",
+    "price": 25.00,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/4.Galbi.png"
+  },
+  {
+    "name": "Mushroom Grill Platter",
+    "description": "King oyster mushrooms, Shiitake mushrooms, Enoki mushrooms, Sesame oil, Salt, Garlic",
+    "price": 14.50,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/5.Mushroom Grill Platter.png"
+  },
+  {
+    "name": "Jumuluk (주물럭)",
+    "description": "Marinated boneless beef short ribs. Boneless beef short ribs or ribeye, Soy sauce, Garlic, Sugar, Sesame oil, Onion, Green onions, Black pepper, Sesame seeds",
+    "price": 22.50,
+    "category": "BBQ GRILL",
+    "imageUrl": "/images/6.Jumuluk.png"
+  }
+]

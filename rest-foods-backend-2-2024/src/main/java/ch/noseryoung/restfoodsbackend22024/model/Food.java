@@ -25,10 +25,13 @@ public class Food {
     private String description;
 
     @PositiveOrZero
-    @NotBlank
+    @NotNull
     private double price;
 
     @Size(max = 100)
     @NotBlank
     private String category;
+
+    @Size(max = 255)
+    private String imageUrl;
 }

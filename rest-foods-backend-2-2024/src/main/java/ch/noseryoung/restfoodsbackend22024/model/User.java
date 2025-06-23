@@ -14,6 +14,7 @@ import java.util.Objects;
 @ToString(exclude = "password") // Sicherheitsmaßnahme: Passwort nicht in toString()
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "app_user")
 public class User {
 
     @Id

@@ -5,34 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rest-foods-backend-2-2024.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/FoodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/ReservationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/UserService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,20 +77,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.RestFoodsBackend22024Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#2 on jon&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.RestFoodsBackend22024Application.executor": "Run",
+    "git-widget-placeholder": "#2 on jon",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jwolf\Desktop\2024-rest-foods-backend-2\rest-foods-backend-2-2024\src\main\resources\images" />
+      <recent name="C:\Users\jwolf\Desktop\2024-rest-foods-backend-2\rest-foods-backend-2-2024\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -135,7 +130,7 @@
       <updated>1749727747532</updated>
       <workItem from="1749727749357" duration="4128000" />
       <workItem from="1750315893226" duration="5706000" />
-      <workItem from="1750658383456" duration="1072000" />
+      <workItem from="1750658383456" duration="9263000" />
     </task>
     <servers />
   </component>
@@ -158,7 +153,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java</url>
-          <line>41</line>
+          <line>42</line>
           <properties field="role" class="ch.noseryoung.restfoodsbackend22024.model.User" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
