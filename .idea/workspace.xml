@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_09__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_2025_12_10__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_06_2025_14_47__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_31__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2025_13_53__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/RestFoodsBackend22024Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/FoodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/FoodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/ReservationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-foods-backend-2-2024/out/production/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749727747532</updated>
       <workItem from="1749727749357" duration="4128000" />
+      <workItem from="1750315893226" duration="5706000" />
+      <workItem from="1750658383456" duration="1072000" />
     </task>
     <servers />
   </component>
