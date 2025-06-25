@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Soju (소주)",
+    "description": "Korean spirit. Distilled alcohol (rice, barley, or starch), Water, Optional sweeteners or flavorings, Flavors: Green grape, peach, yogurt, plum, grapefruit, more",
+    "price": 8.00,
+    "category": "Drink",
+    "imageUrl": "/images/31.Soju.png"
+  },
+  {
+    "name": "Makgeolli (막걸리)",
+    "description": "Milky rice wine. Steamed rice, Nuruk (fermenting agent), Water",
+    "price": 9.00,
+    "category": "Drink",
+    "imageUrl": "/images/32.Makgeolli.png"
+  },
+  {
+    "name": "Boricha (보리차)",
+    "description": "Roasted barley tea. Roasted barley, Water",
+    "price": 3.00,
+    "category": "Drink",
+    "imageUrl": "/images/33.Boricha.png"
+  },
+  {
+    "name": "Sikhye (식혜)",
+    "description": "Sweet rice punch. Malted barley water, Cooked rice, Sugar, Pine nuts",
+    "price": 4.50,
+    "category": "Drink",
+    "imageUrl": "/images/34.Sikhye.png"
+  },
+  {
+    "name": "Banana Milk (바나나우유)",
+    "description": "Milk, Banana flavoring, Sugar",
+    "price": 3.50,
+    "category": "Drink",
+    "imageUrl": "/images/34.Banana Milk.png"
+  },
+  {
+    "name": "Yuzu Tea (유자차)",
+    "description": "Yuzu marmalade, Hot water, Honey, Ginger (optional)",
+    "price": 4.00,
+    "category": "Drink",
+    "imageUrl": "/images/36.Yuzu tea.png"
+  },
+  {
+    "name": "Korean Soft Drinks",
+    "description": "Chilsung Cider (lemon-lime soda), Milkis (carbonated milk soda), Bong Bong (grape juice with pulp), Sac Sac (orange juice with pulp)",
+    "price": 3.50,
+    "category": "Drink",
+    "imageUrl": "/images/37.Korean Soft Drinks.jpg"
+  }
+]

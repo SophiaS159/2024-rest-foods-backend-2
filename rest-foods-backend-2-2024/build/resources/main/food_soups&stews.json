@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Kimchi Jjigae (김치찌개)",
+    "description": "Kimchi stew. Aged kimchi, Pork belly or tuna, Tofu, Onion, Garlic, Gochugaru, Gochujang, Sesame oil, Green onion",
+    "price": 17.50,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/13.Kimchi Jjigae.png"
+  },
+  {
+    "name": "Doenjang Jjigae (된장찌개)",
+    "description": "Soybean paste stew. Doenjang, Tofu, Zucchini, Onion, Potato, Garlic, Green chili, Mushrooms, Anchovy or kelp broth",
+    "price": 16.00,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/14.Doenjang Jjigae.png"
+  },
+  {
+    "name": "Sundubu Jjigae (순두부찌개)",
+    "description": "Soft tofu stew. Soft tofu, Gochugaru, Garlic, Onion, Egg, Zucchini, Anchovy broth, Sesame oil",
+    "price": 16.50,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/15.Sundubu Jjigae.png"
+  },
+  {
+    "name": "Galbitang (갈비탕)",
+    "description": "Beef short rib soup. Beef short ribs, Garlic, Onion, Korean radish, Green onions, Salt, Black pepper, Glass noodles (optional)",
+    "price": 21.00,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/16.Galbitang.png"
+  },
+  {
+    "name": "Budae Jjigae (부대찌개)",
+    "description": "Army base stew. Kimchi, Spam or hot dogs, Ramyeon noodles, Baked beans, Tofu, Gochujang, Garlic, Onion, Cheese, Green onions, Broth",
+    "price": 19.50,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/17.Budae Jjigae.png"
+  },
+  {
+    "name": "Haemul Sundubu Jjigae (해물순두부찌개)",
+    "description": "Soft tofu seafood stew. Soft tofu, Mixed seafood, Gochugaru, Garlic, Onion, Egg, Zucchini, Seafood broth",
+    "price": 20.00,
+    "category": "Soup & Stew",
+    "imageUrl": "/images/18.Haemul Sundubu Jjigae.png"
+  }
+]
