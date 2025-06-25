@@ -37,8 +37,8 @@ public class Reservation {
 
     public enum ReservationStatus {
         PENDING,
-        CONFIRMED,
-        CANCELLED
+        ACCEPTED,
+        DECLINED,
     }
 
 }

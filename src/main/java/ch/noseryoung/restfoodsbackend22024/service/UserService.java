@@ -13,6 +13,8 @@ public class UserService {
 
     private final UserRepository userRepository;
 
+    private static final List<String> ADMIN_USERNAMES = List.of("moreno", "sophia", "eleonora", "jonathan");
+
     @Autowired
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -27,6 +29,13 @@ public class UserService {
     }
 
     public User createUser(User user) {
+        if (user.getRole() == null) {
+            if (ADMIN_USERNAMES.contains(user.getLogin().toLowerCase())) {
+                user.setRole(User.Role.ADMIN);
+            } else {
+                user.setRole(User.Role.CUSTOMER);
+            }
+        }
         return userRepository.save(user);
     }
 

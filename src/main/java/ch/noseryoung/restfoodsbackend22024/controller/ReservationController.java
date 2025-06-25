@@ -13,6 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @CrossOrigin(origins = "http://localhost:5173")
@@ -58,12 +59,18 @@ public class ReservationController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Reservation>> getAllReservations() {
+    public ResponseEntity<List<ReservationDTO>> getAllReservations() {
         List<Reservation> reservations = reservationRepository.findAll();
+        System.out.println("Reservations found: " + reservations.size());
         if (reservations.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
-        return new ResponseEntity<>(reservations, HttpStatus.OK);
+
+        List<ReservationDTO> dtoList = reservations.stream()
+                .map(ReservationDTO::new)
+                .toList();
+
+        return new ResponseEntity<>(dtoList, HttpStatus.OK);
     }
 
     @GetMapping("/my")
@@ -104,6 +111,32 @@ public class ReservationController {
             return new ResponseEntity<>(existingReservation, HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
+    @PutMapping("/{id}/status")
+    public ResponseEntity<ReservationDTO> updateReservationStatus(@PathVariable Long id, @RequestBody Map<String, String> statusPayload) {
+        Optional<Reservation> reservationOpt = reservationRepository.findById(id);
+        if (reservationOpt.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+
+        Reservation reservation = reservationOpt.get();
+
+        String newStatus = statusPayload.get("status");
+        if (newStatus == null) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        try {
+            Reservation.ReservationStatus statusEnum = Reservation.ReservationStatus.valueOf(newStatus);
+            reservation.setReservationStatus(statusEnum);
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        reservationRepository.save(reservation);
+
+        return ResponseEntity.ok(new ReservationDTO(reservation));
     }
 
     @DeleteMapping("/{id}")

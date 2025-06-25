@@ -4,47 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="Connected userprofile with frontend">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/DTO/ReservationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" afterDir="false" />
+    <list default="true" id="ba173ea7-69f1-4470-b7dc-907724ce3b26" name="Changes" comment="Added ADMIN validation and connected Admin page">
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DTO/ReservationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/DTO/ReservationDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation$ReservationStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User$Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/JwtUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthController.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthController.class.uniqueId3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthTokenFilter.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DataInitializer.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtResponse.class.uniqueId10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/User.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserController.class.uniqueId9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserDetailsImpl.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserDetailsServiceImpl.class.uniqueId8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserService.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/security/UserDetailsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/noseryoung/restfoodsbackend22024/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ReservationController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ReservationDTO.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/DTO/ReservationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/DTO/ReservationDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/model/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/repository/ReservationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/security/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/restfoodsbackend22024/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +250,10 @@
       <workItem from="1750239039858" duration="160000" />
       <workItem from="1750239412339" duration="6161000" />
       <workItem from="1750248250308" duration="6895000" />
-      <workItem from="1750312886271" duration="14354000" />
+      <workItem from="1750312886271" duration="19686000" />
+      <workItem from="1750399778355" duration="3281000" />
+      <workItem from="1750747124653" duration="2545000" />
+      <workItem from="1750831784119" duration="8907000" />
     </task>
     <task id="LOCAL-00001" summary="Repaired my Repository and connected Loginpage with backend">
       <option name="closed" value="true" />
@@ -296,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750324116674</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new Reservation possibilities for profile">
+      <option name="closed" value="true" />
+      <created>1750333149094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750333149094</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +315,8 @@
     <MESSAGE value="Fixed all errors and secured with JWT" />
     <MESSAGE value="Added new security restrictions" />
     <MESSAGE value="Connected userprofile with frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected userprofile with frontend" />
+    <MESSAGE value="Added new Reservation possibilities for profile" />
+    <MESSAGE value="Added ADMIN validation and connected Admin page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ADMIN validation and connected Admin page" />
   </component>
 </project>
