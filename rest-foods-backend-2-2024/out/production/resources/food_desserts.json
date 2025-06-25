@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hotteok (호떡)",
+    "description": "Stuffed sweet pancake. Wheat flour, Yeast, Brown sugar, Cinnamon, Nuts or seeds, Oil",
+    "price": 6.00,
+    "category": "Desserts",
+    "imageUrl": "/images/25.Hotteok.png"
+  },
+  {
+    "name": "Bingsu (빙수)",
+    "description": "Korean shaved ice. Shaved ice, Condensed milk, Sweet red beans, Fruits, Rice cake (mochi)",
+    "price": 9.50,
+    "category": "Desserts",
+    "imageUrl": "/images/26.Bingsu.png"
+  },
+  {
+    "name": "Melona",
+    "description": "Melon-flavored ice cream bar. Milk base, Melon flavoring, Sugar",
+    "price": 3.50,
+    "category": "Desserts",
+    "imageUrl": "/images/27.Melona.png"
+  },
+  {
+    "name": "Yakgwa (약과)",
+    "description": "Honey cookies. Wheat flour, Honey, Soy sauce, Sesame oil, Ginger juice",
+    "price": 5.00,
+    "category": "Desserts",
+    "imageUrl": "/images/28.Yakgwa.png"
+  },
+  {
+    "name": "Injeolmi (인절미)",
+    "description": "Rice cake with roasted soybean powder. Glutinous rice, Roasted soybean flour, Sugar, Salt, Nuts (optional)",
+    "price": 6.50,
+    "category": "Desserts",
+    "imageUrl": "/images/29.Injeolmi.png"
+  },
+  {
+    "name": "Dalgona (달고나)",
+    "description": "Honeycomb candy. Sugar, Baking soda",
+    "price": 4.00,
+    "category": "Desserts",
+    "imageUrl": "/images/30.Dalgona.jpg"
+  }
+]

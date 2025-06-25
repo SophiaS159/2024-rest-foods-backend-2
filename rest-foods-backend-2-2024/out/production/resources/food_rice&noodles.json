@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Bibimbap (비빔밥)",
+    "description": "Mixed rice bowl. Steamed rice, Spinach, Carrots, Bean sprouts, Zucchini, Shiitake mushrooms, Fried egg, Gochujang, Sesame oil",
+    "price": 16.50,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/7.Bibimbap.png"
+  },
+  {
+    "name": "Kimchi Bokkeumbap (김치볶음밥)",
+    "description": "Kimchi fried rice. Cooked rice, Kimchi, Gochujang, Soy sauce, Garlic, Onion, Egg, Sesame oil",
+    "price": 15.00,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/8.Kimchi_bokkeumbap.png"
+  },
+  {
+    "name": "Japchae (잡채)",
+    "description": "Stir-fried glass noodles. Sweet potato noodles, Beef, Carrots, Spinach, Onion, Bell peppers, Garlic, Soy sauce, Sugar, Sesame oil",
+    "price": 17.00,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/9.Japchae.png"
+  },
+  {
+    "name": "Jjajangmyeon (짜장면)",
+    "description": "Black bean noodles. Wheat noodles, Pork, Onion, Zucchini, Potato, Black bean paste, Garlic, Sugar, Cornstarch",
+    "price": 18.00,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/10.Jjajangmyeon.png"
+  },
+  {
+    "name": "Ramyeon (라면)",
+    "description": "Spicy noodle soup. Ramyeon noodles, Gochugaru, Gochujang, Garlic, Green onion, Egg (optional), Cheese (optional)",
+    "price": 12.50,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/11.Ramyeon.png"
+  },
+  {
+    "name": "Kimchi Cheese Bokkeumbap (김치치즈볶음밥)",
+    "description": "Kimchi fried rice with cheese. Cooked rice, Kimchi, Gochujang, Garlic, Onion, Scallions, Mozzarella cheese, Egg (optional)",
+    "price": 16.00,
+    "category": "Rice & Noodles",
+    "imageUrl": "/images/12.Kimchi_cheese_bokkeumbap.png"
+  }
+]
